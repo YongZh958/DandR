@@ -1,3 +1,5 @@
 测试命令
 ```bash
 python main.py --num-gpus 1 --config-file /root/zy/code/DandR/configs/voc/defrcn_det_r101_base1.yaml --eval-only --opts MODEL.WEIGHTS /root/zy/code/DandR/checkpoints/voc2/defrcn_det_r101_base1/model_final.pth OUTPUT_DIR /root/zy/code/DandR/checkpoints/voctest
+ python main.py --num-gpus 1 --config-file /root/zy/code/DandR/checkpoints/voc2/defrcn_gfsod_r101_novel1/tfa-like/1shot_seed0/config.yaml --eval-only --opts MODEL.WEIGHTS /root/zy/code/DandR/checkpoints/voc2/defrcn_gfsod_r101_novel1/tfa-like/1shot_seed0/model_final.pth OUTPUT_DIR /root/zy/code/DandR/checkpoints/voc_999/
+python main.py --num-gpus 1 --config-file /root/zy/code/DandR/checkpoints/voc2/defrcn_gfsod_r101_novel1/tfa-like/2shot_seed0/config.yaml --eval-only --opts MODEL.WEIGHTS /root/zy/code/DandR/checkpoints/voc2/defrcn_gfsod_r101_novel1/tfa-like/2shot_seed0/model_final.pth OUTPUT_DIR /root/zy/code/DandR/checkpoints/voc_999/
